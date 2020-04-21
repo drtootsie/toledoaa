@@ -4,6 +4,7 @@ import Home from './Home/Home';
 import Meeting from './Meeting/Meeting';
 import Conferences from './Conference/Conferences';
 import Resources from './Resource/Resources';
+import Contact from './Contact/Contact';
 
 export interface IRoute {
   path: string;
@@ -31,6 +32,11 @@ const Routes: IRoute[] = [
     path: '/resource',
     sidebarName: 'Resources',
     component: Resources
+  },
+  {
+    path: '/contact',
+    sidebarName: 'Contact Us',
+    component: Contact
   }
 ];
 
