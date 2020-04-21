@@ -1,0 +1,6 @@
+.MuiGrid-item:first-child {
+  margin-bottom: 5px;
+}
+.MuiCard-root + .MuiCard-root {
+  margin-top: 5px;
+}
