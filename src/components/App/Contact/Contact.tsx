@@ -62,15 +62,13 @@ const Contact: React.FC = () => {
         <Grid item xs={6}>
           <Paper className={classes.paper}>
             <h2>AA Answer Services in Outlying Areas.</h2> <br/>
-            <ul>
-                <li><a href="tel:4193521545">(419) 352-1545 Bowling Green, OH</a></li>
-                <li><a href="tel:4196255995 ">(419) 625-5995 Fremont, OH</a></li>
-                <li><a href="tel:5677102205">(567) 710-2205 Lima, OH</a></li>
-                <li><a href="tel:4196255995">(419) 625-5995 Sandusky, OH</a></li>
-                <li><a href="tel:7342404844">(734) 240-4844 Monroe, MI</a></li>
-                <li><a href="tel:5172653590">(517) 265-3590 Adrian & Tecumseh, MI</a></li>
-                <li><a href="tel:8556075223">(855) 607-5223 AlAnon</a></li>
-            </ul>
+            <a href="tel:4193521545">(419) 352-1545 Bowling Green, OH</a><br/>
+            <a href="tel:4196255995 ">(419) 625-5995 Fremont, OH</a><br/>
+            <a href="tel:5677102205">(567) 710-2205 Lima, OH</a><br/>
+            <a href="tel:4196255995">(419) 625-5995 Sandusky, OH</a><br/>
+            <a href="tel:7342404844">(734) 240-4844 Monroe, MI</a><br/>
+            <a href="tel:5172653590">(517) 265-3590 Adrian & Tecumseh, MI</a><br/>
+            <a href="tel:8556075223">(855) 607-5223 AlAnon</a><br/>
           </Paper>
         </Grid>
       </Grid>
